@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Modern responsive navbar with hamburger menu"
+    >
+
+    <title>Navify | Responsive Navbar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">N</span>
+            <span>Navify</span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+
+            <div class="mobile-menu-header">
+                <span>Menu</span>
+
+                <button
+                    class="close-menu"
+                    id="closeMenu"
+                    aria-label="Close menu"
+                >
+                    &times;
+                </button>
+            </div>
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+            <a href="#contact" class="nav-cta mobile-cta">
+                Get Started
+            </a>
+
+        </nav>
+
+        <a href="#contact" class="nav-cta desktop-cta">
+            Get Started
+        </a>
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    <span class="pulse"></span>
+                    Modern Responsive Design
+                </div>
+
+                <h1>
+                    Navigate Your
+                    <span>Digital World</span>
+                </h1>
+
+                <p>
+                    A clean, responsive and interactive navigation experience
+                    designed for modern websites and mobile devices.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#features" class="primary-btn">
+                        Explore Features
+                        <span>→</span>
+                    </a>
+
+                    <a href="#about" class="secondary-btn">
+                        Learn More
+                    </a>
+                </div>
+
+                <!-- Stats -->
+
+                <div class="stats">
+
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <span>Responsive</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>3</strong>
+                        <span>Core Technologies</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>∞</strong>
+                        <span>Possibilities</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Visual -->
+
+            <div class="hero-visual">
+
+                <div class="floating-card card-one">
+                    <span class="mini-icon">⚡</span>
+                    <div>
+                        <strong>Fast Navigation</strong>
+                        <small>Smooth interactions</small>
+                    </div>
+                </div>
+
+                <div class="browser-window">
+
+                    <div class="browser-top">
+                        <div class="browser-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="browser-address">
+                            navify.dev
+                        </div>
+                    </div>
+
+                    <div class="browser-content">
+
+                        <div class="mock-logo">
+                            <span>N</span>
+                            Navify
+                        </div>
+
+                        <div class="mock-links">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="mock-hero">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+
+                        <div class="mock-cards">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="floating-card card-two">
+                    <span class="check">✓</span>
+                    <div>
+                        <strong>Mobile Ready</strong>
+                        <small>Works everywhere</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="section" id="features">
+
+            <div class="section-heading">
+
+                <span class="section-tag">FEATURES</span>
+
+                <h2>
+                    Built for a better
+                    <span>web experience</span>
+                </h2>
+
+                <p>
+                    Everything you need to create a modern and responsive
+                    navigation system.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <div class="feature-icon blue">
+                        ◈
+                    </div>
+
+                    <h3>Fully Responsive</h3>
+
+                    <p>
+                        Adapts beautifully to desktops, tablets and mobile
+                        screens using modern CSS media queries.
+                    </p>
+
+                    <a href="#contact">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <article class="feature-card featured">
+
+                    <div class="feature-icon purple">
+                        ☰
+                    </div>
+
+                    <h3>Smart Hamburger Menu</h3>
+
+                    <p>
+                        Interactive mobile navigation with smooth slide-in
+                        and slide-out transitions.
+                    </p>
+
+                    <a href="#contact">
+                        Learn more →
+                    </a>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon green">
+                        ✦
+                    </div>
+
+                    <h3>Smooth Animation</h3>
+
+                    <p>
+                        CSS transitions and JavaScript interactions create
+                        a polished user experience.
+                    </p>
+
+                    <a href="#contact">
+                        Learn more →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="services-section" id="services">
+
+            <div class="section-heading">
+
+                <span class="section-tag">WHAT WE OFFER</span>
+
+                <h2>
+                    Simple. Modern.
+                    <span>Powerful.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="service-grid">
+
+                <div class="service-item">
+                    <span>01</span>
+                    <div>
+                        <h3>Responsive Layout</h3>
+                        <p>
+                            Flexible layouts that work across every screen.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span>02</span>
+                    <div>
+                        <h3>Interactive UI</h3>
+                        <p>
+                            Engaging interactions powered by JavaScript.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span>03</span>
+                    <div>
+                        <h3>Clean Design</h3>
+                        <p>
+                            Minimal and professional visual interface.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span>04</span>
+                    <div>
+                        <h3>Mobile First</h3>
+                        <p>
+                            Optimized navigation for smaller devices.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-visual">
+
+                <div class="about-circle circle-one"></div>
+                <div class="about-circle circle-two"></div>
+
+                <div class="about-box">
+
+                    <span class="about-number">21</span>
+
+                    <p>
+                        Task
+                    </p>
+
+                    <small>
+                        Responsive Navbar
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <span class="section-tag">ABOUT THE PROJECT</span>
+
+                <h2>
+                    Responsive design
+                    <span>made simple.</span>
+                </h2>
+
+                <p>
+                    This project demonstrates how HTML, CSS and JavaScript
+                    can work together to create a responsive navigation
+                    experience.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <span>✓</span>
+                        Desktop navigation bar
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Mobile hamburger menu
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Smooth slide animations
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Responsive media queries
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta-section" id="contact">
+
+            <div class="cta-content">
+
+                <span class="section-tag">READY TO BUILD?</span>
+
+                <h2>
+                    Let's create something
+                    <span>amazing.</span>
+                </h2>
+
+                <p>
+                    A responsive interface is the first step toward a
+                    great user experience.
+                </p>
+
+                <a href="#home" class="primary-btn">
+                    Back to Top
+                    <span>↑</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-icon">N</span>
+                    <span>Navify</span>
+                </a>
+
+                <p>
+                    Modern responsive navigation for modern websites.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 Navify. Built with HTML, CSS & JavaScript.
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
